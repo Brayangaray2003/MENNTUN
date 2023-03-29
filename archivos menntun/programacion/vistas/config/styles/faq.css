@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", sans-serif;
+}
+
+body {
+  background: linear-gradient(83deg, #dddddd, #113c4a, #265a5c, #3f7b70);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 16s ease infinite;
+  -moz-animation: AnimationName 16s ease infinite;
+  -o-animation: AnimationName 16s ease infinite;
+  animation: AnimationName 16s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:77% 0%}
+  50%{background-position:24% 100%}
+  100%{background-position:77% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:77% 0%}
+  50%{background-position:24% 100%}
+  100%{background-position:77% 0%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:77% 0%}
+  50%{background-position:24% 100%}
+  100%{background-position:77% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:77% 0%}
+  50%{background-position:24% 100%}
+  100%{background-position:77% 0%}
+}
+  .accordion{
+  border: solid 1px #2E4F4F;
+  border-radius: 20px; 
+  }
+  .accordion h3{
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .accordion-button:not(.collapsed){
+    color: rgb(255, 255, 255) !important;
+    background-color: #2E4F4F;
+  }
+  .accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")!important;
+  }
+    .accordion-button:focus {
+    border-color: #2E4F4F !important;
+    box-shadow: 0 0 0 0.25rem rgba(37, 83, 87, 0.25) !important;
+    }
+    
+a{
+  color: #437777;
+}
+a:hover{
+  color: #1c2c2c;
+}
